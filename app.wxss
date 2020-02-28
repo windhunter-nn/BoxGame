@@ -1,0 +1,17 @@
+/**app.wxss**/
+/* 页面容器样式 */
+.container{
+  height: 100vh;
+  color: #e64340;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+/* 顶端标题 */
+.title{
+  font-size: 18pt;
+}

@@ -1,0 +1,35 @@
+/* pages/game/game.wxss */
+
+/* 游戏画布 */
+
+canvas{
+  border: 1px solid;
+  width: 240px;
+  height: 240px;
+}
+
+
+/* 方向键按钮整体区域 */
+.buttonBox
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+/* 方向键按钮第二行 */
+.buttonBox view{
+  display: flex;
+  flex-direction: row;
+}
+
+/* 所有方向键按钮 */
+
+.buttonBox button
+{
+  width:100rpx;
+  height: 100rpx;
+}
+button{
+  margin: 10rpx;
+}

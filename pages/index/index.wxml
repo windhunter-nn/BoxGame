@@ -1,0 +1,14 @@
+<!-- index.wxml -->
+<view class="container">
+  <!-- 标题 -->
+  <view class="title">游戏选关</view>
+  <!-- 关卡列表 -->
+  <view class="levellist">
+  
+    <view class="level" wx:for="{{levels}}" wx:key="levels{{index}}" bindtap="chooseLevel" data-level = '{{index}}'>
+      <image src="/images/{{item}}"></image>
+      <text>第{{index+1}}关</text>
+    </view>
+    
+  </view>
+</view>
